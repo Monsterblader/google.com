@@ -1,0 +1,37 @@
+body {
+  /* rules go here */
+  margin:0;
+}
+.topbar {
+	font-family: arial, sans-serif;
+	font-size: .75em;
+	font-weight: bold;
+	color: gray;
+	background-color: black;
+	padding: 5px;
+}
+#gsearch {
+	width: 514px;
+	height: 20px;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+
+}
+#gtest {
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	text-align: center;
+	width: 575px;
+}
+.menu {
+	display: inline;
+	padding-left: 0;
+}
+li {
+	display: inline;
+	margin-right: 10px;
+}
